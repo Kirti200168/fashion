@@ -1,0 +1,162 @@
+
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navbar styling */
+nav {
+  background-color: #f9f9f9;
+  padding: 10px;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Slider section styling */
+#slider {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.slider-container img {
+  margin: 0 5px;
+}
+
+/* Service section styling */
+#service {
+  padding: 20px;
+  text-align: center;
+}
+
+.service-item {
+  margin: 20px;
+}
+
+.service-item img {
+  height: 80px;
+}
+
+/* Featured Products section styling */
+#feature {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.featured-products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+}
+
+/* About Us section styling */
+#about-us {
+  padding: 20px;
+}
+
+/* Testimonials section styling */
+#testimonial {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+}
+
+.testimonial-item {
+  margin: 20px;
+}
+
+.testimonial-item img {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+/* Carousel section styling */
+#carousel {
+  padding: 20px;
+  text-align: center;
+}
+
+.carousel-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.carousel-item {
+  max-width: 300px;
+  text-align: center;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+footer p {
+  margin-top: 10px;
+}
+
+.payment-methods {
+  margin-bottom: 10px;
+}
+
+.payment-methods h4 {
+  margin-bottom: 5px;
+}
+
+.payment-methods img {
+  width: 40px;
+  height: auto;
+  margin: 0 5px;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .featured-products, .carousel-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
